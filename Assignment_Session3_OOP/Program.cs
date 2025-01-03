@@ -31,7 +31,14 @@ namespace Assignment_Session3_OOP
             // Internal Protected
             #endregion
 
-            
+            #region RelationShips Between Classes
+            //1) Inheritance [FullTime Employee is a Employee]
+            //2) Aggreagetion [Department has Employee]
+            // 2.1 Composition => Room has walls
+            // 2.2 Association => Room has chairs
+            #endregion
+
+           
 
         }
     }
