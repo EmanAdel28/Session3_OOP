@@ -38,7 +38,23 @@ namespace Assignment_Session3_OOP
             // 2.2 Association => Room has chairs
             #endregion
 
-           
+            #region PolyMorphism
+            // Overload
+            Console.WriteLine(Sum(1, 2));
+            Console.WriteLine(Sum(1, 2, 3));
+            Console.WriteLine(Sum(1.2, 2.2));
+
+            // Override
+            Parent parent = new Parent(1, 2);
+            Console.WriteLine(parent);
+            parent.Fun1();
+            parent.Fun2();
+
+            Child child = new Child(1, 2, 3);
+            parent.Fun1();
+            parent.Fun2();
+            #endregion
+
 
         }
     }
