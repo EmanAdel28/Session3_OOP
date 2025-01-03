@@ -25,8 +25,14 @@ namespace Assignment_Session3_OOP
             //Console.WriteLine(child);
             //Console.WriteLine(child.prodect());
             #endregion
+            #region Access Modifier
+            // Private Protected
+            // Protected
+            // Internal Protected
+            #endregion
 
-           
+            
+
         }
     }
 }
